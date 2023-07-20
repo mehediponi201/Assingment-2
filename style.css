@@ -278,22 +278,39 @@ font-weight: 500;
      } 
      .header-nav{
         display: grid; 
-        grid-template-columns: repeat(2 1fr); 
+        grid-template-columns: repeat(2 1fr);
         gap: 20px;
      }  
      .banner{
         display: grid; 
         grid-template-columns: repeat(2 1fr);
         align-items: center;
+     } 
+     .banner-img{
+      margin-left: 250px;
+     } 
+     .sign,.rogue{
+       width: 130px;
+     } 
+     .main-section{
+      margin-left: 300px;
      }
-     .banner-goat{
+ .banner-goat{
         display: grid; 
         grid-template-columns: repeat(4 1fr);
+     }  
+.games-img{
+      margin-left: 300px; 
+      display: flex; 
+      flex-direction: column;
      } 
-     .online-games{
+.online-games{
         display: grid; 
         grid-template-columns: repeat(4 1fr);
-     } 
+     }  
+.main-section-paragraph{
+  width: 100px;
+}
      .play-section{
         display: grid; 
         grid-template-columns: repeat(2 1fr);
